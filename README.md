@@ -28,7 +28,7 @@ Add Faraday to the `Gemfile` and run `bundle install`:
 
 ```ruby
 gem 'faraday'
-```
+```d
 
 Our `searches/search.html.erb` is already set up to post a `:zipcode` param to our `searches_controller`, so let's get in there and add the Foursquare API call with Faraday:
 
